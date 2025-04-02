@@ -28,8 +28,8 @@ def load_model_func(model_name, path):
     except Exception as e:
         print(f"Failed to load model from {path}: {e}")
 
-load_model_func("skin_cancer_model_v6_8785", 'models/skin_cancer_model_v6_8785.keras')
-model = models["skin_cancer_model_v6_8785"]
+load_model_func("skin_cancer_model_v6_9104", 'models/skin_cancer_model_v6_9104.keras')
+model = models["skin_cancer_model_v6_9104"]
 
 # Preprocessing the image
 def preprocess_image(image_path):
